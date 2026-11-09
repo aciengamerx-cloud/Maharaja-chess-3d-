@@ -1,0 +1,32 @@
+{
+  "id": "/",
+  "name": "Maharaja Chess 3D",
+  "short_name": "Maharaja3D",
+  "description": "Interactive 3D Floating Castle Maharaja Chess 3D with sculpted stone pieces, glowing purple magical portal, floating islands, cinematic melee captures, and stone shatter physics.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#080a0f",
+  "theme_color": "#080a0f",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

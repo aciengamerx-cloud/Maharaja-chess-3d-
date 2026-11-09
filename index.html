@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080a0f" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Maharaja3D" />
+  <title>Maharaja Chess 3D</title>
+  <meta name="description" content="Interactive 3D Floating Castle Maharaja Chess 3D with sculpted stone pieces, glowing purple magical portal, floating islands, cinematic melee captures, and stone shatter physics." />
+  <meta property="og:title" content="Maharaja Chess 3D" />
+  <meta property="og:description" content="Interactive 3D Floating Castle Maharaja Chess 3D with sculpted stone pieces, glowing purple magical portal, floating islands, cinematic melee captures, and stone shatter physics." />
+  <meta property="og:image" content="/assets/aistudio/maharaja_chess_3d_512_a978d0b9.png" />
+  <link rel="icon" type="image/png" href="/assets/aistudio/maharaja_chess_3d_512_a978d0b9.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').catch(() => {});
+      });
+    }
+  </script>
+</body>
+</html>

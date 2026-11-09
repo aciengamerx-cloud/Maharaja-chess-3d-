@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan to fix the Black player camera perspective so it is never obstructed by the portal, calibrate responsive zoom and Side/Player/Overhead camera presets so the full chessboard is always clearly visible on desktop and mobile screens, and disable finger/mouse drag camera rotation to prevent unintentional camera movement during gameplay.",
+  "updatedAt":  "2026-11-08T10:37:10.089591650Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

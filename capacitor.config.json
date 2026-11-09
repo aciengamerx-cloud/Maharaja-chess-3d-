@@ -1,0 +1,9 @@
+{
+  "appId": "com.maharajachess3d.game",
+  "appName": "Maharaja Chess 3D",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
